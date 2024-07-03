@@ -1,11 +1,13 @@
 from pygame import *
 Game = True
 
+def Game(win):
+    pass
 
 def App():
     global Game
     clock = time.Clock()
-    win = display.set_mode((600,400))
+    win = display.set_mode((1000,600))
     display.set_caption("ZUMA")
     while Game:
         events = event.get()
